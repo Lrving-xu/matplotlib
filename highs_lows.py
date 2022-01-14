@@ -23,7 +23,7 @@ with open(filename) as f:
             high = int(row[1])
             low = int(row[3])
         except ValueError:
-            print(current_date,'missing data')
+            print(current_date, 'missing data')
         else:
             dates.append(current_date)
             highs.append(high)
